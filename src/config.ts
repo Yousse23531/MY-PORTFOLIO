@@ -13,7 +13,7 @@ export const config = {
     experiences: [
         {
             position: "QA Functional Tester",
-            company: "SelectSkillSet",
+            company: "SASCODE",
             period: "2024 - Present",
             location: "Remote",
             description: "Performing comprehensive functional testing of web applications to ensure quality and reliability. Creating detailed test cases and reporting bugs to development teams.",
@@ -27,7 +27,7 @@ export const config = {
         },
         {
             position: "Frontend Developer",
-            company: "SelectSkillSet",
+            company: "HIKMA-WARE",
             period: "2024 - Present",
             location: "Remote",
             description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
@@ -40,44 +40,52 @@ export const config = {
             technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
         },
         {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
+            position: "Full Stack Developer & Founder/CEO",
+            company: "HIKMA-WARE",
+            period: "2023 - Present",
             location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
+            description: "Founded and leading Hikma-ware as CEO, developing and maintaining full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
             responsibilities: [
+                "Founded and established Hikma-ware as a technology company",
                 "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
                 "Implemented RESTful APIs and integrated third-party services",
                 "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
+                "Managed team operations and strategic direction"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
+            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack", "Business Leadership"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "POS system",
-            category: "Full Stack",
-            technologies: "React, Node.js, Express, MongoDB, Electron",
+            title: "Hikma-ware Platform",
+            category: "Full Stack & Business Leadership",
+            technologies: "React, Node.js, Express, MongoDB, Business Strategy",
             image: "/images/project-1.webp"
         },
         {
             id: 2,
-            title: "Invoicing system",
+            title: "POS system",
             category: "Full Stack",
-            technologies: "React, Node.js, Express, MongoDB, PDFKit",
+            technologies: "React, Node.js, Express, MongoDB, Electron",
             image: "/images/project-2.webp"
         },
         {
             id: 3,
-            title: "Cafés and Restaurants management desktop app",
-            category: "Desktop Application",
-            technologies: "Electron, React, Node.js, SQLite, Chart.js",
+            title: "Invoicing system",
+            category: "Full Stack",
+            technologies: "React, Node.js, Express, MongoDB, PDFKit",
             image: "/images/project-3.webp"
         },
         {
             id: 4,
+            title: "Cafés and Restaurants management desktop app",
+            category: "Desktop Application",
+            technologies: "Electron, React, Node.js, SQLite, Chart.js",
+            image: "/images/project-4.webp"
+        },
+        {
+            id: 5,
             title: "website for 'Maison Rustique'",
             category: "Web Development",
             technologies: "React, HTML5, CSS3, JavaScript, Responsive Design",

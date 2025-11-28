@@ -40,8 +40,8 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         <Suspense fallback={<div>Loading....</div>}>
           <TechStack />
         </Suspense>
-        <Contact />
       </div>
+      <Contact />
     </div>
   );
 };
