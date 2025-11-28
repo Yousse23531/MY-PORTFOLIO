@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 import { config } from "../config";
 import gsap from "gsap";
