@@ -14,7 +14,7 @@ export const config = {
         {
             position: "QA Functional Tester",
             company: "SASCODE",
-            period: "2024 - Present",
+            period: "2024 - 2025",
             location: "Remote",
             description: "Performing comprehensive functional testing of web applications to ensure quality and reliability. Creating detailed test cases and reporting bugs to development teams.",
             responsibilities: [
