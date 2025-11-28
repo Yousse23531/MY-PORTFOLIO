@@ -66,22 +66,15 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
-        </a>
+        {/* Logo removed as per user request */}
         <a
-          href="mailto:example@mail.com"
+          href="mailto:youssef@hekma.ovh"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          youssef@hekma.ovh
         </a>
         <ul>
-          <li>
-            <a data-href="#about" href="#about">
-              <HoverLinks text="ABOUT" />
-            </a>
-          </li>
           <li>
             <a data-href="#work" href="#work">
               <HoverLinks text="WORK" />

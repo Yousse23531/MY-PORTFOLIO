@@ -1,20 +1,30 @@
 export const config = {
     developer: {
-        name: "Huzaif",
-        fullName: "Huzaif Ahmed",
+        name: "Youssef",
+        fullName: "Youssef Kallel",
         title: "Full Stack Developer",
         description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star."
     },
     social: {
         github: "huzaifahmedz",
-        email: "dev.huzaif@gmail.com",
-        location: "India"
-    },
-    about: {
-        title: "About Me",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star. I specialize in building modern web applications with React, Node.js, and cutting-edge technologies."
+        email: "youssef@hekma.ovh",
+        location: "Tunisia"
     },
     experiences: [
+        {
+            position: "QA Functional Tester",
+            company: "SelectSkillSet",
+            period: "2024 - Present",
+            location: "Remote",
+            description: "Performing comprehensive functional testing of web applications to ensure quality and reliability. Creating detailed test cases and reporting bugs to development teams.",
+            responsibilities: [
+                "Designed and executed test cases for web applications",
+                "Identified, documented, and tracked software defects using Jira",
+                "Collaborated with development teams to ensure timely bug fixes",
+                "Performed regression testing to verify fixes and prevent regressions"
+            ],
+            technologies: ["Manual Testing", "Jira", "Test Cases", "Bug Reporting"]
+        },
         {
             position: "Frontend Developer",
             company: "SelectSkillSet",
@@ -47,42 +57,35 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "AI-Powered Code Review Assistant",
+            title: "POS system",
             category: "Full Stack",
-            technologies: "Python, TensorFlow, React, FastAPI, PostgreSQL, Docker",
+            technologies: "React, Node.js, Express, MongoDB, Electron",
             image: "/images/project-1.webp"
         },
         {
             id: 2,
-            title: "Real-time Collaborative Whiteboard",
+            title: "Invoicing system",
             category: "Full Stack",
-            technologies: "TypeScript, WebRTC, Socket.io, Canvas API, Node.js, Redis",
+            technologies: "React, Node.js, Express, MongoDB, PDFKit",
             image: "/images/project-2.webp"
         },
         {
             id: 3,
-            title: "Blockchain Voting System",
-            category: "Full Stack",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask",
+            title: "Cafés and Restaurants management desktop app",
+            category: "Desktop Application",
+            technologies: "Electron, React, Node.js, SQLite, Chart.js",
             image: "/images/project-3.webp"
         },
         {
             id: 4,
-            title: "Cloud Infrastructure Dashboard",
-            category: "Full Stack",
-            technologies: "Go, Kubernetes, Grafana, Prometheus, Terraform, React",
+            title: "website for 'Maison Rustique'",
+            category: "Web Development",
+            technologies: "React, HTML5, CSS3, JavaScript, Responsive Design",
             image: "/images/project-4.webp"
-        },
-        {
-            id: 5,
-            title: "Neural Network Visualizer",
-            category: "Full Stack",
-            technologies: "Python, TensorFlow.js, D3.js, Next.js, WebGL, TypeScript",
-            image: "/images/project-5.webp"
         }
     ],
     contact: {
-        email: "dev.huzaif@gmail.com",
+        email: "youssef@hekma.ovh",
         github: "https://github.com/huzaifahmedz",
         linkedin: "https://www.linkedin.com",
         twitter: "https://x.com",
@@ -103,5 +106,3 @@ export const config = {
         }
     }
 };
-
-
